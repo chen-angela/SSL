@@ -3,19 +3,9 @@
 
 int main()
 {
-    FILE *arch = fopen("output.txt","w");
-    if (arch ==NULL)
-    {
-        printf("\nError de apertura del archivo. \n\n");
+    printf( "Hola mundo." );
 
-    }
-    else
-    {
-        char mensaje[20]= "hello world";
-        fprintf(arch,mensaje);
-        printf("hello world");
-        getch();
+    getch(); /* Pausa */
 
-    }
     return 0;
 }
